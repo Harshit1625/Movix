@@ -149,6 +149,7 @@ const Explore = () => {
                                             key={index}
                                             data={item}
                                             mediaType={mediaType}
+                                            fromSearch={true}
                                         />
                                     );
                                 })}
